@@ -5,7 +5,7 @@ import _ from 'lodash'
 import Message from './Message'
 import { logoutUser } from '../redux/actions/actions'
 
-export default class ChatroomWindow extends Component {
+class ChatroomWindow extends Component {
 
   render() {
     const { messages, users, params, auth, dispatch } = this.props

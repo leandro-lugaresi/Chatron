@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { Link } from 'react-router'
 import { loginUser } from '../redux/actions/actions'
 
-export default class Login extends Component {
+class Login extends Component {
 
   handleSubmit(e) {
     const { dispatch } = this.props

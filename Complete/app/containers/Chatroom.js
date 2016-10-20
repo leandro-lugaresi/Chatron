@@ -6,7 +6,7 @@ import socket from '../lib/socket'
 import { receiveMessage } from '../redux/actions/actions'
 import { RECEIVE_MESSAGE } from '../constants/actionTypes'
 
-export default class Chatroom extends Component {
+class Chatroom extends Component {
 
   componentDidMount() {
     const { auth, dispatch } = this.props

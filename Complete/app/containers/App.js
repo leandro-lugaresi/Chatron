@@ -4,7 +4,7 @@ import socket from '../lib/socket'
 import { adduser } from '../redux/actions/actions'
 import { ADD_USER, REMOVE_USER } from '../constants/actionTypes'
 
-export default class App extends Component {
+class App extends Component {
 
   componentDidMount() {
     const { dispatch } = this.props

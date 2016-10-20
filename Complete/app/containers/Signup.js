@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import { signup } from '../redux/actions/actions.js'
 
 
-export default class Signup extends Component {
+class Signup extends Component {
 
   handleClick() {
     const { dispatch } = this.props
